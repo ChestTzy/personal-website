@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(ok.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:antiquewhite;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;   
+}
+span{
+    color: lightseagreen;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px;
+}
+nav ul li a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    transition: .5s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: antiquewhite;
+    margin: 20px 0px 20px;
+    font-size: 75px; 
+}
+h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(ugh.jpg);
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-myself{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-myself h2{
+    color: lightgrey;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-myself p{
+    color: burlywood;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: red;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: darkgrey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color: whitesmoke;
+    font-size: 23px;
+    margin-bottom: 15px;.
+}
+.pra p{
+    color: darkred;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.Follow me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
